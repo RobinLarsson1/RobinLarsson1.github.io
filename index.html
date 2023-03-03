@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/styles/base.css">
+	<script src="/src/dom.js" type="module"></script>
+	<script src="/src/display.js" type="module"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<title>Pokemon team manager</title>
+</head>
+
+<body>
+	<div id="teamh1"></div>
+	<header id="main-header">
+		<div class="top-header">
+			<img src="/img/pokemon h1.png" alt="pokemon.logga" id="headline">
+			<h3 id="header-h3">Team manager</h3>
+		</div>
+		<div id="header-buttons">
+			<button id="find-champions">Find champions</button>
+			<button id="team-pokemons">My team</button>
+		</div>
+	</header>
+	<section id="choose-pokemons">
+		<div id="search">
+			<a id="to-top" href="#">
+				<p id="back-to-top-text">Back to top</p><i class="ri-arrow-up-circle-line"></i>
+			</a>
+			<input type="text" id="search-bar" placeholder="Search">
+		</div>
+		<div class="delare">
+			<hr><img src="/img/pokeball.png" alt="poke-ball" id="pokeball"> <img src="/img/he.png" alt="derp"
+				id="easteregg">
+			<hr>
+		</div>
+	</section>
+	<section id="pokediv" class="pokediv">
+		<div id="main-container" class="show-pokemon">
+			<div id="btn-div"></div>
+		</div>
+		<div id="reserve-h1" class="reserves-header"></div>
+		<div id="reserves-container" class="show-pokemon"></div>
+	</section>
+	<section id="my-team">
+		<div class="champion">
+			<div id="poke_img"></div>
+			<div id="champ-text">
+				<h2 id="name"></h2>
+				<p id="type-of-pokemon"></p>
+			</div>
+
+		</div>
+	</section>
+</body>
+
+</html>
